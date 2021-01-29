@@ -221,7 +221,52 @@
 
   /*######## Grid Trabalhos##########*/
 
+  .grid-trabalhos{
+    display: grid;
+    grid-row-gap: 20px;
+    grid-template-columns: 100%;
+    padding: 10px;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    line-height: 30px;
+  }
+
+  .grid-trabalhos div{
+    height: 290px;
+    background-color: yellow;
+    border-radius: 20px;
+    background-size: cover;
   
+  }
+
+  .trabalho1{
+    background-image: url('./imagens/Alemanha.jpg');
+  }
+
+  .trabalho1:hover{
+    opacity: 0.5;
+  }
+
+  .trabalho2{
+    background-image: url('./imagens/Africa.jpg');
+  }
+
+  .trabalho3{
+    background-image: url('./imagens/Berlim.jpg');
+  }
+
+  .trabalho4{
+  background-image: url('./imagens/França.jpg')
+  }
+
+  .trabalho5{
+    background-image: url('./imagens/Japão.jpg');
+  }
+
+  .trabalho6{
+    background-image: url('./imagens/New-York.jpg');
+  }
 
 
 

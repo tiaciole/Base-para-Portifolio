@@ -5,6 +5,8 @@ import Cabeçalho from './Cabeçalho'
 import Avatar from './Avatar'
 import Apresentação from './Apresentacao'
 import Grid from './Grid'
+import Trabalhos from './Trabalho-Recentes'
+import Grid_Trabalhos from './Grid_Trabalhos'
 
 
 
@@ -28,6 +30,10 @@ function App(){
          um problema de design por vez."/>
 
          <Grid/>
+
+         <Trabalhos/>
+
+         <Grid_Trabalhos/>
 
     </div>
     )

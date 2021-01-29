@@ -193,6 +193,35 @@
     list-style: none;
   }
 
+  /*############ Trabalho Recente################*/
+
+
+  .trabalhos{
+  width: 90%;
+  text-align: center;
+  margin: auto;
+  padding: 20px;
+  background-color: yellow;
+  
+  }
+
+  .trabalhos h2{
+    margin-bottom: 30px;
+  }
+
+  .trabalhos p{
+    line-height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+  }
+
+  .trabalhos span{
+    font-weight: bold;
+  }
+
+  /*######## Grid Trabalhos##########*/
+
+  
 
 
 

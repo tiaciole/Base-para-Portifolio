@@ -268,18 +268,112 @@
     background-image: url('./imagens/New-York.jpg');
   }
 
+  .botão{
+   text-align: center;
+    
+  }
+
+.botão-ver{
+  width: 300px;
+  margin: auto;
+  font-size: 18px;
+  padding-top: 14px;
+  padding-bottom: 10px;
+  border-radius: 25px;
+  border-color:rgb(117, 16, 247);
+  text-align: center;
+  color: #6c00f8;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  align-items: center;
+}
+
+.botão-ver:hover{
+  color: white;
+  background-color: #6c00f8;
+  transition: 0.2s ease-in; /* transição do efeito devagar*/
+}
+
+.hr{
+  width: 100%;
+  color: red;
+}
+
+/*############### Grid-Empresa ##############*/
+
+.subtitulo{
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.grid-empresa{
+    display: grid;
+    grid-row-gap: 10px;
+    grid-column-gap: 20px;
+    grid-template-columns: 50% 50%;
+    text-align: center;
+    width: 90%;
+    line-height: 30px;
+    margin: auto;
+    box-sizing: border-box;
+    margin-bottom: 80px;
+  }
+
+  .grid-empresa div{
+    background-color: blue;
+    width: 232px;
+    height: 94px;
+    box-sizing: border-box;
+    padding: 10px;
+  }
+
+  .netflix,.red{
+    width: 80%;
+  }
+
+
+  /*############### Grid-Projetos#################*/
+
+  .grid-projetos{
+    display: grid;
+    grid-row-gap: 30px;
+    grid-template-columns:100%;
+    text-align: center;
+    width: 100%;
+    line-height: 30px;
+    margin: auto;
+    margin-top: -170px;
+    box-sizing: border-box;
+    margin-bottom: 80px;
+  }
+
+  .grid-projetos div{
+    height: 290px;
+    background-color: yellow;
+    border-radius: 20px;
+    width: 90%;
+    margin: auto;
+  }
+ 
 
 
 
 
 
+
+
+
+}
 
 
 
 
 
   
-}
+
 
 
 

@@ -28,9 +28,10 @@ function Grid_Trabalhos(){
             <div className = 'trabalho6'>
                 6
             </div>
-
+            
         </div>
 
+        
     )
 }
 

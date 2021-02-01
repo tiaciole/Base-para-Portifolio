@@ -7,6 +7,10 @@ import Apresentação from './Apresentacao'
 import Grid from './Grid'
 import Trabalhos from './Trabalho-Recentes'
 import Grid_Trabalhos from './Grid_Trabalhos'
+import Botão from './Botão'
+import Subtitulo from './Subtitulo'
+import Empresas from './Empresas'
+import Projetos from './Grid-Projetos'
 
 
 
@@ -31,9 +35,22 @@ function App(){
 
          <Grid/>
 
-         <Trabalhos/>
+         <Trabalhos titulo = "Meu trabalho recente"/>
 
          <Grid_Trabalhos/>
+
+         <Botão/>
+
+         <Subtitulo/>
+
+         <Empresas/>
+
+         <Apresentação eu = "Meus projetos iniciais" descricao = "Sou um viciado em produtos digitais. Ao longo dos 
+         anos, usei centenas de aplicativos da web e móveis em diferentes 
+         setores e verticais. Eventualmente, decidi que seria um 
+         desafio divertido tentar projetar e construir o meu próprio."/>
+
+         <Projetos/>
 
     </div>
     )

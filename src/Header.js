@@ -8,9 +8,9 @@ function Header(props){
         <div className = "header">
 
 
-            <h1>{props.logo}llll</h1>
+            <h1 className = "logo">{props.logo}</h1>
 
-            <Menu consultoria = "Consultoria" ola = "Diga olá"/>
+            <Menu className = "listamenu" consultoria = "Consultoria" ola = "Diga olá"/>
             
 
            

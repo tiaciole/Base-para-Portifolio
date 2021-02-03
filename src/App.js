@@ -5,6 +5,7 @@ import Cabeçalho from './Cabeçalho'
 import Avatar from './Avatar'
 import Apresentação from './Apresentacao'
 import Grid from './Grid'
+import Hr from './Hr'
 import Trabalhos from './Trabalho-Recentes'
 import Grid_Trabalhos from './Grid_Trabalhos'
 import Botão from './Botão'
@@ -34,6 +35,8 @@ function App(){
          um problema de design por vez."/>
 
          <Grid/>
+
+         <Hr/>
 
          <Trabalhos titulo = "Meu trabalho recente"/>
 

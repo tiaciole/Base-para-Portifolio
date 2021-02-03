@@ -4,10 +4,13 @@ import './App.css'
 function Apresentação(props){
     return(
         <div className = 'apresentacao'>
-            <h2>{props.eu}</h2>
-
-            <p>{props.descricao}</p>
+            <div>
+                <h2>{props.eu}</h2>
+            </div>
             
+            <div>
+                <p>{props.descricao}</p>
+            </div>
         </div>
     )
 }

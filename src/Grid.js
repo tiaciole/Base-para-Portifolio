@@ -58,7 +58,7 @@ function Grid(){
                     <li>Mais de 12.000 comentários</li>
                 </ul>
             </div>
-            <hr/>
+            
         </div>
     )
 }

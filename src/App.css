@@ -12,7 +12,6 @@
      /*################## HEADER ############*/
 
      .header{
-      background-color: red;
       display: block;
       margin: auto;
       text-align: center;
@@ -40,20 +39,19 @@
     }
 
     .consultoria:hover{
-      background-color: rgb(71, 71, 160) ;
-      color: white;
-      
+      color: rgb(101, 35, 163) ;
+      transition: 0.2s ease-in;
     }
-
+  
     .ola:hover{
       background-color: rgb(71, 71, 160) ;
       color: white;
+      transition: 0.2s ease-in;
     }
 
     /*################## CABEÇALHO ############*/
 
     .cabeçalho{
-      background-color: blue;
       max-width: 900px;
       margin: auto;
       padding: 55px 55px 0px 55px;
@@ -71,7 +69,6 @@
     /*################# Avatar/ Workstation #################*/
 
     .avatar{
-      background-color: yellow;
       text-align: center;
       width: 80%;
       margin: auto;
@@ -193,8 +190,6 @@
   text-align: center;
   margin: auto;
   padding: 20px;
-  background-color: yellow;
-  
   }
 
   .trabalhos h2{
@@ -228,10 +223,12 @@
 
   .grid-trabalhos div{
     height: 290px;
-    max-width: 550px;
-    background-color: yellow;
     border-radius: 20px;
     background-size: cover;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
   
   }
 
@@ -318,7 +315,6 @@
   }
 
   .grid-empresa div{
-    background-color: blue;
     width: 232px;
     height: 94px;
     box-sizing: border-box;
@@ -372,7 +368,6 @@
   }
 
   .texto{
-    background-color: red;
     margin-top: -40px;
     height: 80px 
     
@@ -387,14 +382,12 @@
   
 
   .header{
-   background-color: brown;
    display: inline-block;
    width: 100%;
    
 
   }
   .logo{
-   background-color: yellow;
    display: inline;
 
   }
@@ -438,7 +431,6 @@
       /*################## CABEÇALHO ############*/
 
       .cabeçalho{
-        background-color: blue;
         max-width: 900px;
         margin: auto;
         padding: 55px 55px 0px 55px;
@@ -457,7 +449,6 @@
       /*################# Avatar/ Workstation #################*/
 
     .avatar{
-      background-color: yellow;
       text-align: center;
       width: 80%;
       margin: auto;
@@ -577,8 +568,6 @@
     text-align: center;
     margin: auto;
     padding: 20px;
-    background-color: yellow;
-    
     }
   
     .trabalhos h2{
@@ -605,25 +594,23 @@
     grid-template-columns:100%;
     padding: 10px;
     text-align: center;
-    background-color: blue;
     max-width: 650px;
     
   }
 
   .grid-trabalhos div{
     height: 290px;
-    background-color: yellow;
-    
     border-radius: 20px;
     background-size: cover;
-
-
-  
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
   }
 
-  .trabalho1{
-    background-image: url('./imagens/Alemanha.jpg');
-  }
+ .trabalho1{
+   background-image: url('./imagens/Berlim.jpg');
+ }
 
   .trabalho1:hover{
     opacity: 0.5;
@@ -704,7 +691,6 @@
   }
 
   .grid-empresa div{
-    background-color: blue;
     max-width: 232px;
     height: 94px;
     box-sizing: border-box;
@@ -770,14 +756,12 @@
 @media  (min-width: 768px) and (max-width: 1020px){
 
   .header{
-    background-color: brown;
     display: inline-block;
     width: 100%;
     
  
    }
    .logo{
-    background-color: yellow;
     display: inline;
  
    }
@@ -820,44 +804,42 @@
  
        /*################## CABEÇALHO ############*/
  
-       .cabeçalho{
-         background-color: blue;
-         max-width: 900px;
-         margin: auto;
-         padding: 55px 55px 0px 55px;
-         text-align: center;
-         line-height: 30px;
-         
-       }
+  .cabeçalho{
+    max-width: 900px;
+    margin: auto;
+    padding: 55px 55px 0px 55px;
+    text-align: center;
+    line-height: 30px;
+    
+  }
    
-       .cabeçalho h3{
-         margin-top: 20px;
-       }
- 
-       .cabeçalho h3{
-         margin-bottom: 10px;
-       }
-       /*################# Avatar/ Workstation #################*/
- 
-     .avatar{
-       background-color: yellow;
-       text-align: center;
-       width: 80%;
-       margin: auto;
-     }
-     .avatar-img{
-       width: 250px;
-       }
- 
-     .div-work{
-       text-align: center;
-       margin: auto;
-       }
-     .workstation{
-       width: 80%;
-     }
+  .cabeçalho h3{
+    margin-top: 20px;
+  }
 
-     /*############# Apresentação ################*/
+  .cabeçalho h3{
+    margin-bottom: 10px;
+  }
+    /*################# Avatar/ Workstation #################*/
+
+  .avatar{
+    text-align: center;
+    width: 80%;
+    margin: auto;
+  }
+  .avatar-img{
+    width: 250px;
+    }
+
+  .div-work{
+    text-align: center;
+    margin: auto;
+    }
+  .workstation{
+    width: 80%;
+  }
+
+  /*############# Apresentação ################*/
 
   .apresentacao{
     text-align: center;
@@ -969,8 +951,6 @@
     text-align: center;
     margin: auto;
     padding: 20px;
-    background-color: yellow;
-    
     }
   
     .trabalhos h2{
@@ -998,20 +978,18 @@
       grid-column-gap:25px ;
       padding: 10px;
       text-align: center;
-      background-color: blue;
       max-width: 80%;
       
     }
   
     .grid-trabalhos div{
       height: 290px;
-      background-color: yellow;
       border-radius: 20px;
       background-size: cover;
-      
-  
-  
-    
+      -webkit-background-size: 100% 100%;
+      -moz-background-size: 100% 100%;
+      -o-background-size: 100% 100%;
+      background-size: 100% 100%;
     }
   
     .trabalho1{
@@ -1044,7 +1022,6 @@
   
     .botão{
      text-align: center;
-      
     }
   
   .botão-ver{
@@ -1115,10 +1092,13 @@
     display: grid;
     grid-row-gap: 30px;
     grid-template-columns:50% 50%;
+    grid-column-gap: 10px;
     text-align: center;
-    width: 100%;
+    max-width: 920px;
     line-height: 30px;
     margin: auto;
+    margin-left: 10px;
+    margin-right: 10px;
     margin-top: -170px;
     box-sizing: border-box;
     margin-bottom: 80px;
@@ -1127,8 +1107,9 @@
   .grid-projetos div{
     height: 290px;
     border-radius: 20px;
-    width: 90%;
+    width: 100%;
     margin: auto;
+
     padding: 40px;
     border: 1px solid rgb(212, 206, 206);
     background-color: white;
@@ -1138,12 +1119,9 @@
     margin-top: 10px;
     margin-bottom: 20px;
   }
-  
-
 
   .netflix2{
     width: 35%;
-    
   }
 
   .red2{
@@ -1154,24 +1132,21 @@
     background-color: red;
     margin-top: -40px;
     height: 80px 
-    
-
   }
 
 }
 
-@media  (min-width: 1020px) and (max-width: 1920px){
+@media  (min-width: 1020px) and (max-width: 4920px){
   
   .header{
-    background-color: brown;
     display: inline-block;
     width: 100%;
     
  
    }
    .logo{
-    background-color: yellow;
     display: inline;
+    margin-left: 50px;
  
    }
  
@@ -1179,6 +1154,7 @@
      display: inline;
      float: right;
      margin-top: 15px;
+     margin-right: 20px;
    
    }
    .menu li{
@@ -1190,67 +1166,65 @@
    .ola{
      border: 1px solid rgb(36, 3, 37);
      font-weight: bold; 
-     padding: 10px;
+     padding: 05px 10px 5px 10px;
      border-radius: 25px;
- 
    }
  
    .consultoria{
      padding: 10px;
      margin-bottom: 5px;
+     font-weight: 600;
    }
  
    .consultoria:hover{
-     background-color: rgb(71, 71, 160) ;
-     color: white;
-     
+     color: rgb(101, 35, 163) ;
+     transition: 0.2s ease-in;
    }
  
    .ola:hover{
      background-color: rgb(71, 71, 160) ;
      color: white;
+     transition: 0.2s ease-in;
    }
  
-       /*################## CABEÇALHO ############*/
- 
-       .cabeçalho{
-         background-color: blue;
-         max-width: 900px;
-         margin: auto;
-         padding: 55px 55px 0px 55px;
-         text-align: center;
-         line-height: 30px;
-         
-       }
-   
-       .cabeçalho h3{
-         margin-top: 20px;
-       }
- 
-       .cabeçalho h3{
-         margin-bottom: 10px;
-       }
-       /*################# Avatar/ Workstation #################*/
- 
-     .avatar{
-       background-color: yellow;
-       text-align: center;
-       width: 80%;
-       margin: auto;
-     }
-     .avatar-img{
-       width: 350px;
-       }
- 
-     .div-work{
-       text-align: center;
-       margin: auto;
-       }
-     .workstation{
-       width: 60%;
-     }
+    /*################## CABEÇALHO ############*/
 
-     /*############# Apresentação ################*/
+    .cabeçalho{
+      max-width: 900px;
+      margin: auto;
+      padding: 55px 55px 0px 55px;
+      text-align: center;
+      line-height: 30px;
+      
+    }
+
+    .cabeçalho h3{
+      margin-top: 20px;
+    }
+
+    .cabeçalho h3{
+      margin-bottom: 10px;
+    }
+    /*################# Avatar/ Workstation #################*/
+
+  .avatar{
+    text-align: center;
+    width: 80%;
+    margin: auto;
+  }
+  .avatar-img{
+    width: 350px;
+    }
+
+  .div-work{
+    text-align: center;
+    margin: auto;
+    }
+  .workstation{
+    width: 800px;
+  }
+
+    /*############# Apresentação ################*/
 
   .apresentacao{
     text-align: center;
@@ -1281,29 +1255,27 @@
   /*############## Gride #################*/
 
   .container-grid{
+    margin: auto;
     display: grid;
-    max-width: 80%;
+    max-width: 1000px;
     grid-row-gap: 0px;
-    grid-template-columns: 26.66% 26.66% 26.66%;
+    grid-template-columns: 33.33% 33.33% 33.33%;
     padding: 10px;
     text-align: center;
-    margin-left: 80px;
-    margin-right: 20px;
+    margin-top: -150px;
     line-height: 30px;
-    background-color: yellow;
+    margin-bottom: 60px;
     
   }
 
   .container-grid div{
-    margin-bottom: 60px;
-    
+    align-content: center;
   }
 
   .container-grid h2{
     margin-bottom: 22px;
     padding-top: 20px;
     color: black;
-
   }
 
 
@@ -1320,13 +1292,10 @@
   .coluna1{
     background-color: violet;
     height: auto;
-    
     padding: 40px;
-    margin-top: -150px;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
     border: 1px solid rgb(212, 206, 206);
-    
   }
   .coluna1 ul{
     list-style: none;
@@ -1337,9 +1306,7 @@
     height: auto;
     width: 100%;
     padding: 40px;
-    margin-top: -150px;
     border: 1px solid rgb(212, 206, 206);
-
   }
   .coluna2 ul{
     list-style: none;
@@ -1350,11 +1317,9 @@
     height: auto;
     width: 100%;
     padding: 40px;
-    margin-top: -150px;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
     border: 1px solid rgb(212, 206, 206)
-
   }
 
   .coluna3 ul{
@@ -1371,8 +1336,6 @@
     text-align: center;
     margin: auto;
     padding: 20px;
-    background-color: yellow;
-    
     }
   
     .trabalhos h2{
@@ -1390,65 +1353,62 @@
       font-weight: bold;
     }
 
-    /*######## Grid Trabalhos##########*/
+  /*######## Grid Trabalhos##########*/
 
-    .grid-trabalhos{
-      margin: auto;
-      display: grid;
-      grid-template-columns:48% 48%;
-      grid-row-gap: 15px;
-      grid-column-gap:25px ;
-      padding: 10px;
-      text-align: center;
-      background-color: blue;
-      max-width: 80%;
-      
-    }
+  .grid-trabalhos{
+    margin: auto;
+    display: grid;
+    grid-template-columns:48% 48%;
+    grid-row-gap: 15px;
+    grid-column-gap:25px ;
+    padding: 10px;
+    text-align: center;
+    max-width: 1000px;
+  }
+
+  .grid-trabalhos div{
+    height: 290px;
+    border-radius: 20px;
+    background-size: cover;
+    max-width: ;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+  }
   
-    .grid-trabalhos div{
-      height: 290px;
-      background-color: yellow;
-      border-radius: 20px;
-      background-size: cover;
-      
-  
-  
-    
-    }
-  
-    .trabalho1{
-      background-image: url('./imagens/Alemanha.jpg');
-    }
-  
-    .trabalho1:hover{
-      opacity: 0.5;
-    }
-  
-    .trabalho2{
-      background-image: url('./imagens/Africa.jpg');
-    }
-  
-    .trabalho3{
-      background-image: url('./imagens/Berlim.jpg');
-    }
-  
-    .trabalho4{
-    background-image: url('./imagens/França.jpg')
-    }
-  
-    .trabalho5{
-      background-image: url('./imagens/Japão.jpg');
-    }
-  
-    .trabalho6{
-      background-image: url('./imagens/New-York.jpg');
-    }
-  
-    .botão{
-     text-align: center;
-      
-    }
-  
+  .trabalho1{
+    background-image: url('./imagens/Alemanha.jpg');
+  }
+
+  .trabalho1:hover{
+    opacity: 0.5;
+  }
+
+  .trabalho2{
+    background-image: url('./imagens/Africa.jpg');
+  }
+
+  .trabalho3{
+    background-image: url('./imagens/Berlim.jpg');
+  }
+
+  .trabalho4{
+  background-image: url('./imagens/França.jpg')
+  }
+
+  .trabalho5{
+    background-image: url('./imagens/Japão.jpg');
+  }
+
+  .trabalho6{
+    background-image: url('./imagens/New-York.jpg');
+  }
+
+  .botão{
+    text-align: center;
+  }
+
   .botão-ver{
     width: 300px;
     margin: auto;
@@ -1485,23 +1445,23 @@
   margin-bottom: 60px;
 }
 
-.grid-empresa{
+  .grid-empresa{
+    margin: auto;
     display: grid;
     grid-row-gap: 10px;
     grid-column-gap: 10px;
-    grid-template-columns: 23.5% 23.5% 23.5% 23.5%;
+    grid-template-columns: 24.5% 24.5% 24.5% 24.5%;
     text-align: center;
-    width: 90%;
-    line-height: 30px;
-    margin: auto;
-    box-sizing: border-box;
+    max-width: 1200px;
     margin-bottom: 80px;
+    
   }
 
   .grid-empresa div{
+    margin: auto;
     background-color: blue;
     max-width: 232px;
-    height: 94px;
+    height: 99px;
     box-sizing: border-box;
     padding: 10px;
   }
@@ -1514,23 +1474,26 @@
   /*############### Grid-Projetos#################*/
 
   .grid-projetos{
-    display: grid;
-    grid-row-gap: 30px;
-    grid-template-columns:50% 50%;
-    text-align: center;
-    width: 100%;
-    line-height: 30px;
     margin: auto;
+    display: grid;
+    grid-row-gap: 10px;
+    grid-template-columns:49% 49%;
+    grid-column-gap: 10px;
+    text-align: center;
+    max-width: 1018px;
+    line-height: 30px;
     margin-top: -170px;
     box-sizing: border-box;
     margin-bottom: 80px;
   }
 
   .grid-projetos div{
+    margin: auto;
+    width: 100%;
     height: 290px;
     border-radius: 20px;
-    width: 90%;
     margin: auto;
+    margin-left: 10px;
     padding: 40px;
     border: 1px solid rgb(212, 206, 206);
     background-color: white;
@@ -1540,12 +1503,9 @@
     margin-top: 10px;
     margin-bottom: 20px;
   }
-  
-
-
+ 
   .netflix2{
     width: 35%;
-    
   }
 
   .red2{
@@ -1556,8 +1516,6 @@
     background-color: red;
     margin-top: -40px;
     height: 80px 
-    
-
   }
 
 

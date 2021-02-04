@@ -1518,6 +1518,29 @@
     height: 80px 
   }
 
+  /*############ Slideshow ###########*/
+
+  .slide > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    height: 400px;
+    width: 600px;
+    background-color: yellow;
+  }
+  
+  .slide span {
+    padding: 20px;
+    font-size: 20px;
+    background: #efefef;
+    text-align: center;
+  }
+
+  .imgslide{
+    width: 30%;
+  }
+
 
 }
 

@@ -12,7 +12,7 @@ import Botão from './Botão'
 import Subtitulo from './Subtitulo'
 import Empresas from './Empresas'
 import Projetos from './Grid-Projetos'
-
+import Slideshow from './Slideshow'
 
 
 function App(){
@@ -54,6 +54,8 @@ function App(){
          desafio divertido tentar projetar e construir o meu próprio."/>
 
          <Projetos/>
+
+         <Slideshow/>
 
     </div>
     )

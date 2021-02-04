@@ -374,7 +374,46 @@
 
   }
 
+  /*############ Slideshow ###########*/
+
+  .containerslide{
+    max-width: 450px;
+    margin: auto;
+    
+  }
+
+  .slidediv1{
+    margin: auto;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+  }
+
+  .slidediv2{
+    text-align: center;
+    width: 100%;
+    height: 100%;
+  }
+
+  .img1{
+    width: 150px;
+  }
+  .img2{
+      width: 150px;
+  }
+
+  .textoimagem1{
+    margin: auto;
+    width: 400px;
+    height: 70px;
+    margin-top: 40px;
+    line-height: 35px;
+  }
+
+
 }
+
+
 /*############## fim tela 600px ###########*/
 
 @media  (min-width: 600px) and (max-width: 768px){ /* corrigir*/
@@ -751,7 +790,48 @@
 
   }
 
+  /*############ Slideshow ###########*/
+
+  .containerslide{
+    width: 550px;
+    margin: auto;
+    
+  }
+
+  .slidediv1{
+    margin: auto;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+  }
+
+  .slidediv2{
+    text-align: center;
+    width: 100%;
+    height: 100%;
+  }
+
+  .img1{
+    width: 150px;
+  }
+  .img2{
+      width: 150px;
+  }
+
+  .textoimagem1{
+    margin: auto;
+    width: 530px;
+    margin-top: 40px;
+    height: 80px;
+    background-color: yellow;
+    
+    
+  }
+
+
 }
+
+
 
 @media  (min-width: 768px) and (max-width: 1020px){
 
@@ -1134,7 +1214,45 @@
     height: 80px 
   }
 
+  /*############ Slideshow ###########*/
+
+  .containerslide{
+    width: 750px;
+    margin: auto;
+    
+  }
+
+  .slidediv1{
+    margin: auto;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+  }
+
+  .slidediv2{
+    text-align: center;
+    width: 100%;
+    height: 100%;
+  }
+
+  .img1{
+    width: 150px;
+  }
+  .img2{
+      width: 150px;
+  }
+
+  .textoimagem1{
+    margin: auto;
+    width: 600px;
+    margin-top: 40px;
+    line-height: 25px;
+  }
+
+
 }
+
+
 
 @media  (min-width: 1020px) and (max-width: 4920px){
   
@@ -1520,25 +1638,37 @@
 
   /*############ Slideshow ###########*/
 
-  .slide > div {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-size: cover;
-    height: 400px;
-    width: 600px;
-    background-color: yellow;
-  }
-  
-  .slide span {
-    padding: 20px;
-    font-size: 20px;
-    background: #efefef;
-    text-align: center;
+  .containerslide{
+    width: 750px;
+    margin: auto;
+    
   }
 
-  .imgslide{
-    width: 30%;
+  .slidediv1{
+    margin: auto;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+  }
+
+  .slidediv2{
+    text-align: center;
+    width: 100%;
+    height: 100%;
+  }
+
+  .img1{
+    width: 150px;
+  }
+  .img2{
+      width: 150px;
+  }
+
+  .textoimagem1{
+    margin: auto;
+    width: 600px;
+    margin-top: 40px;
+    line-height: 25px;
   }
 
 

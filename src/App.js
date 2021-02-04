@@ -12,7 +12,9 @@ import Botão from './Botão'
 import Subtitulo from './Subtitulo'
 import Empresas from './Empresas'
 import Projetos from './Grid-Projetos'
-import Slideshow from './Slideshow'
+import SimplesSlider from './SimplesSlider'
+
+
 
 
 function App(){
@@ -55,7 +57,10 @@ function App(){
 
          <Projetos/>
 
-         <Slideshow/>
+        <Cabeçalho titulo = 'Testemunhos' subtitulo = 'Pessoas com quem trabalhei disseram algumas coisas boas...'/>
+        <SimplesSlider/>
+
+        
 
     </div>
     )
